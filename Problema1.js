@@ -5,11 +5,11 @@
 // varianta 1: 
 
 n = 3;
-let a = [45, 4, 135];
-let min = 3493849573344524;
-let max = -1;
+let a = [43, 456, 13];
+let min = a[0];
+let max = a[0];
 
-for(let i=0; i<=n; i++) {
+for(let i=0; i<=a.length; i++) {
     if(min >= a[i]) {
     min = a[i]
 }
